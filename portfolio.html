@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Hanalei&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <title>
+            Rachit Bansal
+        </title>
+        <link href = 'styles.css' rel='stylesheet' type='text/css' />
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
+    <body id='gradient'>
+        <div style="justify-content: center; height: 25px; width: xx; padding: 20px 30px 5px 30px; display: flex">
+            <a href = 'https://www.github.com/RachitBansal' target="_blank">
+                <img class="img" src='github.png' />
+            </a>
+            <a href = 'https://www.linkedin.com/in/rachit-bansal-564725161/' target="_blank">
+                <img class="img" src="linkedin-social-outline-logotype.png" />
+            </a>
+            <a href = 'https://rachitbansal2500@gmail.com' target="_blank">
+                <img class="img" src="mail.png" />
+            </a>
+        </div>
+        <div style='border: 1px solid; box-shadow: 2px 2px black; margin-top: 40px; height: 150px; width: 100%; padding: 2px 10px 2px 10px; background: white;'>
+            <!-- <img src='textt.png' style="height: 55%; width: 75%; margin-left: "> -->
+            <h1 align = 'center' class='heading'>Rachit Bansal</h1>
+            <div style="display: flex; width:100%; height: 20%;">
+                <a id='one' class='links' onmouseover="godisplay('one', 'about')" onclick="godisplay('about')">About</a>
+                <a id='two' class='links' onmouseover="godisplay('two', 'skills')" onclick="godisplay('skills')">Skills</a>
+                <a id='three' class='links' onmouseover="godisplay('three', 'proj')" onclick="godisplay('proj')">Projects</a>
+                <a id='four' class='links' onmouseover="godisplay('four', 'exp')" onclick="godisplay('exp')">Experience</a>
+                <a id='five' class='links' onmouseover="godisplay('five', 'life')" onclick="godisplay('life')">Lifestory</a>
+            </div>
+        </div>
+        <div id='about' name='about' class='infodiv'>
+            <p> Some Text One</p>
+        </div>
+        <div id='skills' name='skills' class='infodiv' style="justify-content: center">
+            <!-- <div id='ml' class="center" style="display: none; position: relative;">
+                <h3>- Reinforcement Learning
+                    - GANs
+                    - RNNs and LSTMs
+                    - CNNs
+                </h3>
+            </div> -->
+            <!-- <div class="center" style='z-index: -1; position: relative;' onmouseover="goinfo('ml')">   -->
+            <img src = 'ml2.png' class='icons' />
+            <h3 align='center'>Machine Learning and Deep Learning</h3>
+            <!-- </div> -->
+            <br /><br />
+            <img src = 'python.png' class='icons' />
+            <h3 align='center'>Python for Data Science</h3>
+            <br /><br />
+            <img src = 'webd.png' class='icons' />
+            <h3 align='center'>Full Stack Web Development</h3>
+        </div>
+        <div id='proj' name='proj' class='infodiv'>
+           <img src = 'nAEudje6cs.gif' class='gifs' />
+            <h3 align='center'>An RL + CNN based agent to automate Atari Games</h3>
+            <!-- </div> -->
+            <br /><br />
+            <img src = 'imagecapt.png' style="height: 175; width: 100%" />
+            <h3 align='center'>Image Captioning using LSTMs and Tranfer Learning</h3>
+            <br /><br />
+        </div>
+        <div id='exp' class='infodiv'>
+                <p> Some Text Four</p>
+        </div>
+        <div id='life' class='infodiv'>
+                <p> Some Text Five</p>
+        </div>
+        <div style="display: none">
+            <div class='divstyle' style="background-image: linear-gradient(to bottom right, rgb(61, 104, 133), white); margin-top: 5%; margin-left: 10%">
+                <a class='links'>Birth</a>
+                <p class='font'>Born in a small middle-class family on 25th April, 2000 in New Delhi</p>
+            </div>
+            <!-- <div style="margin-top: 20%; height: 10%; width: 10%; margin-left: 40%; justify-content: center; background-image: linear-gradient(to bottom right, purple, white);">
+                <h1 class='font'>Rachit</h1>
+                <h1 class='font'>Bansal</h1>
+            </div> -->
+            <div class='divstyle' style="background-image: linear-gradient(to bottom right, rgb(143, 38, 38), white); margin-left: 75%; margin-top: 10">
+                <a class='links'>Schooling</a>
+                <p class='font'>Went to Bal Bharati Public School, Dwarka for 14 years straight</p>
+            </div>
+            <div class='divstyle' style="background-image: linear-gradient(to bottom right, rgb(172, 163, 48), white); margin-left: 35%; margin-top: 10%;">
+                <a class='links'>Passions</a>
+                <p class='font'>Got deeply involved in Literature and Poetry. A poet himself, penned down more than 200 poems in a span of 3 years.</p>
+            </div>
+            <div class='divstyle' style="background-image: linear-gradient(to bottom right, purple, white); margin-left: 50%; margin-top: 10%">
+                <a class='links'>Early Education</a>
+                <p class='font'>Scored a 10 CGPA in CBSE Class 9th and 10th. Developed an immense interest in computer science, got fascinated about AI.</p>
+            </div>
+            <div class='divstyle' style="background-image: linear-gradient(to bottom right, rgb(209, 33, 33), white); margin-left: 10%; margin-top: 15%">
+                <a class='links'>College</a>
+                <p class='font'>Got into Delhi Technological University batch of 2022 with a meritorious percentile of 98.5 in JEE MAINS 2018.</p>
+            </div>
+            <div class='divstyle' style="background-image: linear-gradient(to bottom right, rgb(51, 49, 179), white); margin-left: 25%; margin-top: 5%">
+                <a class='links'>ML</a>
+                <p class='font'>Got emmersed into ML and higher level Mathematics right from the first day of college</p>
+            </div>
+            <div class='divstyle' style="background-image: linear-gradient(to bottom right, rgb(224, 15, 50), white); margin-left: 70%; margin-top: 10%">
+                <a class='links'>First Internship</a>
+                <p class='font'>Got selected as a Teaching Assistant for the Deep Learning Course at Coding Blocks, Pitampura after the end of first year.</p>
+            </div>
+        </div>
+    </body>
+    <script>
+        var add = 'none'
+        var sub = 'none'
+        function godisplay(a,b){
+            if(sub!='none'){
+                document.getElementById(sub).style.display = 'none'
+            }
+            if(add!='none'){
+                document.getElementById(add).style.background = 'white'
+            }
+            document.getElementById(b).style.display = 'block'
+            document.getElementById(a).style.background = 'black'
+
+            add = a
+            sub = b
+            }
+        var disp = 'none'
+        function goinfo(a){
+            if(disp!='none'){
+                document.getElementById(sub).style.display = 'none'
+            }
+            document.getElementById(a).style.display = 'block'
+        }
+            var colors = new Array(
+             [62,35,255],
+             [60,255,60],
+             [255,35,98],
+             [45,175,230],
+             [255,0,255],
+             [255,128,0]);
+           
+           var step = 0;
+           //color table indices for: 
+           // current color left
+           // next color left
+           // current color right
+           // next color right
+           var colorIndices = [0,1,2,3];
+           
+           //transition speed
+           var gradientSpeed = 0.002;
+           
+           function updateGradient()
+           {
+             
+             if ( $===undefined ) return;
+             
+           var c0_0 = colors[colorIndices[0]];
+           var c0_1 = colors[colorIndices[1]];
+           var c1_0 = colors[colorIndices[2]];
+           var c1_1 = colors[colorIndices[3]];
+           
+           var istep = 1 - step;
+           var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+           var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
+           var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
+           var color1 = "rgb("+r1+","+g1+","+b1+")";
+           
+           var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
+           var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
+           var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
+           var color2 = "rgb("+r2+","+g2+","+b2+")";
+           
+            $('#gradient').css({
+              background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+               background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+             
+             step += gradientSpeed;
+             if ( step >= 1 )
+             {
+               step %= 1;
+               colorIndices[0] = colorIndices[1];
+               colorIndices[2] = colorIndices[3];
+               
+               //pick two new target color indices
+               //do not pick the same as the current one
+               colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+               colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+               
+             }
+           }
+           
+           setInterval(updateGradient,10);
+    </script>
+</html>

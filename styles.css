@@ -1,0 +1,280 @@
+@keyframes divanimation {
+    /* 0% {height: 0px; width: 50px}
+    100% {height: xx; width: 15%} */
+    to { transform: translateY(10); }
+}
+
+@keyframes fontanimation {
+    0% {font-weight: 0}
+    100% {font-weight: normal}
+}
+
+.font{
+    animation-name: fontanimation;
+    animation-duration: 10s;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.divstyle{
+    /* animation-name: divanimation;
+    animation-duration: 5s; */
+    transform: translateY(150px);
+    animation: come-in 0.8s ease forwards;
+    border-radius: 30%;
+    justify-content: center;
+    height: xx;
+    width: 15%;
+    padding: 0px 5px 3px 15px;
+}
+.divstyle:hover{
+    border: solid 3px powderblue
+}
+.grad {
+    background-image: linear-gradient(to bottom right, black, white);
+    /* justify-content: center; */
+}
+
+@media only screen and (min-width:750px) {
+    .links{
+        text-decoration:  none;
+        font-weight: bold;
+        font-family: 'Shadows Into Light', cursive;
+        color: aqua;
+        font-size: 20px;
+        background-image: linear-gradient(to bottom, (black, white));
+        margin-right: 12%;
+        margin-left: 4%;
+    }
+    .heading{
+        font-family: 'Bungee Outline', cursive;
+        font-size:70px;
+        font-weight: bold;
+        margin-top: 0px;
+      }
+      a:hover   {
+        /* Applies to links under the pointer */
+        text-decoration:  none;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: rgb(33, 33, 146);
+        color:            #fff;
+        } 
+    a:active  {
+        /* Applies to activated links */
+        text-decoration:  none;
+        font-weight:      bold;
+        background-color: black;
+        color: white;
+        }
+        a:link    {
+            text-decoration:  none;
+            font-weight: normal;
+            font-family: monospace;
+            color: aqua;
+            font-size: 20px;
+            background-image: linear-gradient(to bottom, (black, white));
+            margin-right: 12%;
+            margin-left: 4%;
+        }
+}
+
+@media only screen and (min-width:500px) and (max-width: 750px) {
+    .links{
+        text-decoration:  none;
+        font-weight: 550;
+        font-family: 'Saira Stencil One', cursive;
+        color: aqua;
+        font-size: 20px;
+        background-image: linear-gradient(to bottom, (black, white));
+        margin-right: 5%;
+        margin-left: 3%;
+    }
+    .heading{
+        font-family: 'Bungee Outline', cursive;
+        font-size:60px;
+        font-weight: normal;
+        margin-top: 0px;
+      }
+      a:hover   {
+        /* Applies to links under the pointer */
+        text-decoration:  none;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: rgb(33, 33, 146);
+        color:            #fff;
+        } 
+    a:active  {
+        /* Applies to activated links */
+        text-decoration:  none;
+        font-weight:      bold;
+        background-color: black;
+        color: white;
+        }
+        a:link    {
+            /* Applies to all unvisited links */
+        text-decoration:  none;
+        font-weight: bold;
+        font-family: monospace;
+        color: aqua;
+        font-size: 20px;
+        background-image: linear-gradient(to bottom, (black, white));
+        margin-right: 5%;
+        margin-left: 3%;
+        }
+}
+
+@media only screen and (max-width:500px) {
+    .links{
+        text-decoration:  none;
+        font-weight: bold;
+        font-family: 'Saira Stencil One', cursive;
+        color: aqua;
+        font-size: 20px;
+        background-image: linear-gradient(to bottom, (black, white));
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .heading{
+        font-family: 'Bungee Outline', cursive;
+        font-size:55px;
+        font-weight: normal;
+        margin-top: 0px;
+      }
+      a:hover   {
+        /* Applies to links under the pointer */
+        text-decoration:  none;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: rgb(33, 33, 146);
+        color:            #fff;
+        } 
+    a:active  {
+        /* Applies to activated links */
+        text-decoration:  none;
+        font-weight:      bold;
+        background-color: black;
+        color: white;
+        }
+    a:link    {
+        text-decoration:  none;
+        font-weight: bold;
+        font-family: monospace;
+        color: aqua;
+        font-size: 20px;
+        background-image: linear-gradient(to bottom, (black, white));
+        margin-right: 2%;
+        margin-left: 2%;
+        }
+}
+
+a:visited {
+    text-decoration:  none;
+    font-weight: bold;
+    font-family: monospace;
+    color: aqua;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, (black, white));
+    margin-right: 2%;
+    margin-left: 2%;
+    } 
+ 
+
+body{
+background-color: #000000;
+padding: 0px;
+margin: 0px;
+}
+
+#gradient{
+width: 100%;
+height: 800px;
+padding: 0px;
+margin: 0px;
+}
+
+h1 {
+    margin-bottom:-2em;
+    position:relative;
+    z-index:1;
+  }
+  dl {
+    background:#5f68f5;
+    padding:0 1em;
+    color:white;
+    box-shadow:inset 0 0 15px 2px ;
+    overflow:hidden;
+    /*border-radius: 10% 1em 1em 1em / 9em 1em 1em 1em;*/
+  }
+  dt {
+    border-top:dotted 1px;
+    font: bold 1.3em/2em 'Maven Pro'; 
+    padding-top:1em;
+  }
+  dt:first-of-type {
+    border:none;
+   
+  }
+  dd {
+    margin:1em 0;
+  }
+  dl:before {
+    content:'';
+    display:block;
+    padding-bottom:10%;;
+    margin:0 -10%;
+    background:white;
+    transform:rotate(-5deg);
+    transform-origin:left;
+    box-shadow:0 0 15px 2px ;
+  }
+
+.infodiv{
+    width:90%;
+    height: xx;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px 10px 10px;
+    background: whitesmoke;
+    opacity: 0.6;
+    display: none;
+}
+
+.img{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.icons{
+    height: 100px;
+    width: xx;
+    align-content: center;
+    /* margin: 10px 40% 20px 40% */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+it:div.center {
+        margin: 0 auto;
+        width: 80em;
+    }
+
+.gifs{
+    height: 175px;
+    width: xx;
+    align-content: center;
+    /* margin: 10px 40% 20px 40% */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
